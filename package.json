@@ -1,0 +1,41 @@
+{
+  "name": "iscrolljs",
+  "version": "0.0.1",
+  "description": "Smooth scroll without jQuery",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rekseto/iscrolljs.git"
+  },
+  "keywords": [
+    "Smooth",
+    "scroll",
+    "vanillaJS",
+    "lightweight"
+  ],
+  "author": "Rekseto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rekseto/iscrolljs/issues"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-babili": "^0.1.4",
+    "gulp-file": "^0.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rollup": "^2.15.0",
+    "rollup": "^0.45.2",
+    "rollup-plugin-babel": "^1.0.0",
+    "rollup-plugin-eslint": "^4.0.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.1.0"
+  },
+  "homepage": "https://github.com/Rekseto/iscrolljs#readme"
+}
