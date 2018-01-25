@@ -9,7 +9,7 @@ const eslintrc  = require('./.eslintrc.json');
 const rename    = require('gulp-rename');
 
 
-gulp.task('build', () =>
+gulp.task('build', () => {
     gulp.src('./src/index.js')    // transform the files here.
         .pipe(rollup({
             allowRealFiles: true,
@@ -32,5 +32,6 @@ gulp.task('build', () =>
             basename: 'iscrolljs',
             extname: '.js'
         }))
-        .pipe(gulp.dest('./dist')),
+        .pipe(gulp.dest('./dist'));
+}
 );
