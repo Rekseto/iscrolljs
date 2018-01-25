@@ -8,7 +8,7 @@ document.querySelectorAll(selector).forEach(link => {
     link.addEventListener('click', (e) => {
         e.preventDefault();
         document.getElementById(href.split('#')[1]).scrollIntoView({ behavior: 'smooth' });
-        if (historySetting) history.pushState(null, null, window.location.pathname + href);
+        if (historySetting) history.pushState(null, null, href);
     });
       
 }, true);
